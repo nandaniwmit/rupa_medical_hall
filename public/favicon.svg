@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0A8F6A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect width="512" height="512" rx="128" fill="url(#primaryGrad)"/>
+  
+  <!-- Inner White Card -->
+  <rect x="36" y="36" width="440" height="440" rx="100" fill="#ffffff" fill-opacity="0.96" filter="url(#shadow)"/>
+  
+  <!-- Medical Plus Cross in Emerald Green -->
+  <path d="M216 110 H296 V216 H402 V296 H296 V402 H216 V296 H110 V216 H216 Z" fill="#0A8F6A" rx="18" />
+  
+  <!-- Capsule overlay / Accent Heartbeat -->
+  <circle cx="256" cy="256" r="32" fill="#ffffff"/>
+  <path d="M236 256 H246 L252 242 L260 270 L266 256 H276" stroke="#0284C7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Small Brand Text Initial 'R' -->
+  <text x="256" y="450" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="bold" font-size="34" fill="#0A8F6A">RUPA MEDICAL</text>
+</svg>
